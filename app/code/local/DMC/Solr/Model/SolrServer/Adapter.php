@@ -7,7 +7,7 @@
  * @author    Team Magento <magento@digitalmanufaktur.com>
  * @version   0.1.6
  */
-$LIB_PATH = Mage::getBaseDir('lib').DS.'DMC'.DS.'Solr';
+$LIB_PATH = Mage::getBaseDir('lib').DS.'Apache'.DS.'Solr';
 
 require_once $LIB_PATH.DS.'Response.php';
 require_once $LIB_PATH.DS.'Service.php';

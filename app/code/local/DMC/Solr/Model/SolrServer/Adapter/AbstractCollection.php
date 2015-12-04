@@ -8,7 +8,7 @@
  * @version   0.1.6
  */
 
-$LIB_PATH = Mage::getBaseDir('lib').DS.'DMC'.DS.'Solr';
+$LIB_PATH = Mage::getBaseDir('lib').DS.'Apache'.DS.'Solr';
 require_once $LIB_PATH.DS.'Service.php';
 
 class DMC_Solr_Model_SolrServer_Adapter_AbstractCollection extends Varien_Data_Collection
